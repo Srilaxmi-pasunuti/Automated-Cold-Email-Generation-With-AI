@@ -61,7 +61,7 @@ if __name__ == "__main__":
     import os
 from langchain_groq import ChatGroq
 
-api_key = "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"
+api_key = < use your api key here >
 os.environ["GROQ_API_KEY"] = api_key  # Set it within the script
 
 chain = ChatGroq(temperature=0, groq_api_key=api_key, model_name="llama3-70b-8192")
